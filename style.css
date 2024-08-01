@@ -1,0 +1,122 @@
+body
+{
+    font-family: sans-serif;
+    background-color: #0075ff;
+}
+
+.quiz
+{
+    background-color: #f8f8f8;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.quiz > div
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.quiz > div:not(:last-child)
+{
+    margin-bottom: 15px;
+}
+
+.quiz .title
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.quiz .questions h2
+{
+    margin: 0px 0px 20px 0px;
+}
+
+.quiz .questions .answers
+{
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.quiz .questions .answer
+{
+    padding: 15px;
+    display: flex;
+    align-items: center ;
+}
+
+.quiz .questions .answer:not(:last-child)
+{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+
+.quiz .questions .answer label
+{
+    cursor: pointer;
+    margin-left: 5px;
+    color: #777;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quiz .submit-div
+{
+    padding: 0px;
+}
+
+.quiz .submit-div input
+{
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #0075ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quiz .progress
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz .progress .bullets
+{
+    display: flex;
+}
+
+.quiz .progress .bullet
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 5px;
+}
+
+.quiz .result
+{
+    display: none;
+    padding: 10px;
+}
+
+.quiz .result p 
+{
+    margin: 0;
+}
+
+.quiz .result p .feedback
+{
+    font-weight: bold;
+}
